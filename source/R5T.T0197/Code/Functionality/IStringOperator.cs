@@ -22,10 +22,10 @@ namespace R5T.T0197.Extensions
             return output;
         }
 
-        /// <inheritdoc cref="IUnadjustedLiraryName"/>
-        public IUnadjustedLiraryName ToUnadjustedLibraryName(string value)
+        /// <inheritdoc cref="IUnadjustedLibraryName"/>
+        public IUnadjustedLibraryName ToUnadjustedLibraryName(string value)
         {
-            var output = new UnadjustedLiraryName(value);
+            var output = new UnadjustedLibraryName(value);
             return output;
         }
     }

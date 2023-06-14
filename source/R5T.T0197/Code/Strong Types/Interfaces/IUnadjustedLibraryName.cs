@@ -10,7 +10,7 @@ namespace R5T.T0197
     /// Strongly-types a string as a %%%.
     /// </summary>
     [StrongTypeMarker]
-    public interface IUnadjustedLiraryName : IStrongTypeMarker,
+    public interface IUnadjustedLibraryName : IStrongTypeMarker,
         ITyped<string>
     {
     }

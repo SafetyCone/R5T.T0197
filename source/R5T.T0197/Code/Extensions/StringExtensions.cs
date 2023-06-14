@@ -18,7 +18,7 @@ namespace R5T.T0197.Extensions
         }
 
         /// <inheritdoc cref="IStringOperator.ToUnadjustedLibraryName(string)"/>
-        public static IUnadjustedLiraryName ToUnadjustedLibraryName(this string value)
+        public static IUnadjustedLibraryName ToUnadjustedLibraryName(this string value)
         {
             return Instances.StringOperator_Extensions.ToUnadjustedLibraryName(value);
         }
